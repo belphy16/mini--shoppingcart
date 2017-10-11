@@ -1,0 +1,2 @@
+# mini--shoppingcart
+angularJs
