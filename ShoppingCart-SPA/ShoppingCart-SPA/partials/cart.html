@@ -1,0 +1,7 @@
+<div class="panel-body">
+    Total Price : {{totalPrice()|currency:"Rs."}}<br>
+	<p ng-if="finalPrice<500">No Discount!</p>
+	<p ng-if="finalPrice>=500 && finalPrice<1000">You get a discount of 15%</p>
+	<p ng-if="finalPrice>=1000 && finalPrice<2000">You get a discount of 20%</p>
+	<p ng-if="finalPrice>=2000">You get a discount of 30%</p>
+  </div>

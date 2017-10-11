@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html ng-app="myApp">
+<head>
+<script src="js/angular.js"></script>
+<script src="js/angular-route.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/app.js"></script>
+<link rel="stylesheet" href="css/darkly.css"></link>
+</head>
+
+<script type="text/ng-template" id='login'>
+<div class="jumbotron">
+<p class="well well-lg">
+<label>Enter Username:</label>
+<input type="text" ng-model="username"></input><br>
+<label>Enter Password:</label>
+<input type="password" ng-model="password"></input><br>
+<button class="label label-success" ng-click="validate()">Login</button><br><br><br>
+</p>
+</div>
+</script>
+
+<header><h1>Super Market Application</h1></header>
+<div ng-view></div>  <!-- This is the template view -->
+<footer><small>Copyright 2017</small></footer>
+</html>

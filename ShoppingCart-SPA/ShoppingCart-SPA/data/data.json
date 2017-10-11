@@ -1,0 +1,26 @@
+[{
+	"name": "Maggi",
+	"quantity": "pack of 6 (large)",
+	"price" : 89,
+	"marked":false
+}, {
+	"name": "Oil",
+	"quantity": "1 litre",
+	"price" : 105,
+	"marked":false
+},{
+	"name": "Besan",
+	"quantity": "1 KG",
+	"price" : 60,
+	"marked":false
+},{
+	"name": "Toor Dal",
+	"quantity": "500 Gms",
+	"price" : 75,
+	"marked":false
+},{
+	"name": "Rice",
+	"quantity": "25 Kgs",
+	"price" : 2900,
+	"marked":false
+}]
